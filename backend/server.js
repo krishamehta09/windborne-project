@@ -5,7 +5,10 @@ import path from "path"
 import { fileURLToPath } from "url"
 
 const app = express()
-app.use(cors())
+app.use(cors({
+  origin: "https://windborne-project-1.onrender.com",
+  methods: ["GET"]
+}))
 
 // Get __dirname in ES module
 const __filename = fileURLToPath(import.meta.url)
