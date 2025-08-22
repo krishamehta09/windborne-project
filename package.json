@@ -7,8 +7,8 @@
     "dev": "vite",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "serve -s dist",
-    "build": "react-scripts build"
+    "start": "vite preview",
+    "build": "vite build"
   },
   "dependencies": {
     "leaflet": "^1.9.4",
